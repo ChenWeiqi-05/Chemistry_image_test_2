@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>Chemistry_image_test_2</name>
-  <url>http://maven.apache.org</url>
+  <url>https://maven.aliyun.com/repository/public</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,5 +21,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.opencv</groupId>
+      <artifactId>opencv</artifactId>
+      <version>4.5.5</version>
+      <scope>system</scope>
+      <systemPath>E:\idea_workspace\Chemistry_image_test_2\opencv-4.11.0\modules\java\jar</systemPath>
+    </dependency>
+
   </dependencies>
 </project>
